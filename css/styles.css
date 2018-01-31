@@ -19,3 +19,11 @@ a:hover .r  { background: lightBlue; }
 .gap{
     padding:5px;
 }
+
+.dummyClass{
+    padding-bottom: 0px;
+}
+
+#dummyId{
+    margin: auto;
+}
