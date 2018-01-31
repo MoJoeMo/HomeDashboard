@@ -1,0 +1,21 @@
+*  { box-siding: border-box; }
+html { /*height: 100%; border: 20px solid #fff;*/ }
+  body  { margin: 100px; font-family: helvetica, sans-serif;}
+
+a  { display: inline-block; position: relative; width: 190px; height: 110px; color: #fff; text-decoration: none; background: salmon; }
+  a .m,
+  a .l,
+  a .r  { -webkit-transition: background .3s; transition: background: .3s; }
+
+.m, .l, .r  { width: 190px; height: 110px; position: absolute; background: tan; }
+  .m  { line-height: 110px; text-align: center; font-size: 100px; font-weight: bold; letter-spacing: -.05em; color: rgba(255,255,255,.3); }
+  .l  { z-index: -1; -webkit-transform: rotate(60deg); transform: rotate(60deg); }
+  .r  { z-index: -1; -webkit-transform: rotate(-60deg); -webkit-transform: rotate(-60deg); }
+
+a:hover .m,
+a:hover .l,
+a:hover .r  { background: lightBlue; }
+
+.gap{
+    padding:5px;
+}
