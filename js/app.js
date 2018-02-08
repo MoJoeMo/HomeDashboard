@@ -4,12 +4,14 @@
     app.config(function($routeProvider){
         $routeProvider
         .when('/',{
-            controller : 'MainCtrl',
-            templateUrl : 'views/home.html'
+            templateUrl : 'views/dashboard.html',
+            controller : 'DashboardCtrl'
+
         })
         .when('/weather',{
-            controller : 'WeatherCtrl',
-            templateUrl : 'views/weather.html'
+            templateUrl : 'views/weather.html',
+            controller : 'WeatherCtrl'
+
         })
         .when('/menu',{
             controller : 'MenuCtrl',

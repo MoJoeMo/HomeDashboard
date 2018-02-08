@@ -25,9 +25,11 @@ a  { display: inline-block; position: relative; width: 190px; height: 110px; col
   .l  { z-index: -1; -webkit-transform: rotate(60deg); transform: rotate(60deg); }
   .r  { z-index: -1; -webkit-transform: rotate(-60deg); -webkit-transform: rotate(-60deg); }
 
+/*
 a:hover .m,
 a:hover .l,
-a:hover .r  { background: lightBlue; }
+a:hover .r  { background: #262626; }
+*/
 
 .gap{
     padding:5px;
@@ -72,7 +74,7 @@ a:hover .r  { background: lightBlue; }
     position: relative;
 }
 .center2{  
-    margin-top: 3%;
+    margin-top: 4%;
     position: relative;
 }
 
